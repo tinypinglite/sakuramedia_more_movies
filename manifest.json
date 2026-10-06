@@ -1,0 +1,11 @@
+{
+  "plugin_id": "sakuramedia_more_movies",
+  "display_name": "SakuraMedia 更多影片",
+  "version": "0.1.0",
+  "host_api_version": 10,
+  "settings_model": "MoreMoviesSettings",
+  "requires_python": ">=3.10",
+  "author": "tinyping",
+  "homepage": "https://github.com/tinypinglite/sakuramedia_more_movies",
+  "release_api_url": "https://api.github.com/repos/tinypinglite/sakuramedia_more_movies/releases/latest"
+}
