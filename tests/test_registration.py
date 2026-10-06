@@ -5,6 +5,13 @@ from sakuramedia_more_movies import plugin
 from sakuramedia_more_movies.plugin import PLUGIN_ID, register
 
 from src.plugins import PluginContext
+from src.plugins.loader import load_plugin_settings_model
+
+
+def test_settings_model_resolves_from_package_root():
+    model = load_plugin_settings_model(Path(__file__).parents[1])
+    assert model is not None
+    assert "min_heat" in model.model_fields
 
 
 def test_manifest_matches_plugin_module():

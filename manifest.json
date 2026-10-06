@@ -1,7 +1,7 @@
 {
   "plugin_id": "sakuramedia_more_movies",
   "display_name": "SakuraMedia 更多影片",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "host_api_version": 10,
   "settings_model": "MoreMoviesSettings",
   "requires_python": ">=3.10",

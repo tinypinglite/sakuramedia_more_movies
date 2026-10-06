@@ -1,3 +1,6 @@
-from .plugin import register
+"""SakuraMedia 更多影片插件。"""
 
-__all__ = ["register"]
+from .plugin import register
+from .settings import MoreMoviesSettings
+
+__all__ = ["MoreMoviesSettings", "register"]
