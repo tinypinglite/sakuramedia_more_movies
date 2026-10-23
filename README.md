@@ -38,3 +38,9 @@ min_heat = 100        # 入库热度阈值，0 表示不过滤
 触发或调整 cron。
 
 
+
+## License
+
+本项目采用 [PolyForm Noncommercial License 1.0.0](./LICENSE)，仅允许非商业用途。
+
+Copyright (C) 2026 tinypinglite
